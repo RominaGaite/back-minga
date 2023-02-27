@@ -1,5 +1,10 @@
-import User from "../User.js";
-import './config/database.js'
 import 'dotenv/config.js'
+import User from "../User.js";
+import '../../config/database.js'
 
-User.insertMany(User)
+
+
+let users = [
+   
+]
+User.insertMany(users)
